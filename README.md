@@ -1,10 +1,11 @@
+# Research on key point detection and 3D spatial positioning of pigs based on YOLO11 and RGB-D fusion
 # 基于 YOLO11 与 RGB-D 融合的生猪关键点检测及 3D 空间定位研究
 
 ## 项目简介
 
 本项目为技术研究报告的配套代码与实验结果，研究内容为**生猪关键点检测**与**3D 空间定位**，采用 YOLO11 姿态估计模型与 Intel RealSense RGB-D 深度相机进行融合，实现猪只实时关键点检测与三维空间坐标获取。
 数据集地址为https://aistudio.baidu.com/datasetdetail/132390
-
+参考数据集地址https://github.com/anl13/MAMMAL_datasets
 ## 技术框架
 
 | 模块 | 技术选型 |
@@ -120,4 +121,5 @@ python 6.py
 ## 许可证
 
 本项目仅供学术研究使用。
+
 
